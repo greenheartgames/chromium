@@ -7,7 +7,7 @@ vars = {
     'ffmpeg_hash':
          '@bb82a38d45e65c1fba378c15180b98ad76ebe1ca',
     'webkit_url':
-         'https://github.com/rogerwang/WebKit_trimmed.git',
+         'https://github.com/greenheartgames/WebKit_trimmed.git',
     'git_url':
          'https://chromium.googlesource.com',
     'webkit_rev':
@@ -138,11 +138,11 @@ deps = {
     'src/tools/swarm_client':
         Var('git_url') + '/chromium/tools/swarm_client.git@8f01d4d512b820d5b6db33eb0a92fbff10e9483d',
     'src/v8':
-        'https://github.com/rogerwang/v8.git@origin/nwebkit',
+        'https://github.com/greenheartgames/v8.git@origin/nwebkit',
     'src/third_party/node':
-        'https://github.com/zcbenz/node.git@origin/master',
+        'https://github.com/greenheartgames/node.git@origin/master',
     'src/content/nw':
-        'https://github.com/rogerwang/node-webkit.git@origin/master',
+        'https://github.com/greenheartgames/node-webkit.git@origin/master',
     'src/webkit/media/crypto/ppapi/cdm':
         Var('git_url') + '/chromium/cdm.git@c2b192a02546916d28233cfd8b7717ffcdcc8347',
 }
